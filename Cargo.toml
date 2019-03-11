@@ -1,0 +1,10 @@
+[package]
+name = "uuid-hotkey"
+version = "0.1.0"
+authors = ["Håvar Nøvik <havar.novik@gmail.com>"]
+
+[dependencies]
+inputbot = "0.4.0"
+uuid = { version = "0.7", features = ["v4"] }
+clipboard = "0.5.0"
+enigo = "0.0.12"
